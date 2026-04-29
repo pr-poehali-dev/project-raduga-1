@@ -211,6 +211,19 @@ const cards = [
             </div>
             <Icon name="ExternalLink" size={16} className="ml-auto text-rose-400 flex-shrink-0" />
           </a>
+          <a
+            href="https://vk.com/nechayannaya"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-indigo-50 rounded-2xl p-4 hover:bg-indigo-100 transition-colors"
+          >
+            <span className="text-2xl">🏠</span>
+            <div className="flex-1">
+              <p className="font-semibold text-indigo-800 text-sm">Центр «Нечаянная радость»</p>
+              <p className="text-xs text-gray-500">Помощь беременным и мамам с детьми без жилья</p>
+            </div>
+            <Icon name="ExternalLink" size={16} className="ml-auto text-indigo-400 flex-shrink-0" />
+          </a>
           <div className="flex items-center gap-3 bg-teal-50 rounded-2xl p-4">
             <span className="text-2xl">👩‍⚕️</span>
             <div>
