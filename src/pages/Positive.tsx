@@ -9,6 +9,37 @@ const COUPLE_IMG = "https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c0
 
 const cards = [
   {
+    id: "video",
+    emoji: "🎬",
+    title: "Здравствуй, моя будущая мама!",
+    subtitle: "Видео о развитии малыша простым языком",
+    color: "from-sky-400 to-blue-500",
+    img: BABY_IMG,
+    content: (
+      <div className="space-y-4">
+        <p className="text-gray-700 text-sm leading-relaxed">
+          Посмотрите трогательный мультфильм о том, как развивается малыш — от первых клеточек до рождения. Простым и понятным языком.
+        </p>
+        <div className="rounded-2xl overflow-hidden shadow-md">
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/fKyljukBE70"
+              title="Развитие плода — от зачатия до рождения"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
+          <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">💡 Простым языком</span>
+          <span className="bg-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-full">🎥 Анимация</span>
+        </div>
+      </div>
+    ),
+  },
+  {
     id: "ai",
     emoji: "✨",
     title: "Узнай, каким я буду!",
@@ -17,17 +48,41 @@ const cards = [
     img: BABY_IMG,
     content: (
       <div className="space-y-4">
-        <p className="text-gray-700 leading-relaxed">
-          Хотите увидеть, как может выглядеть ваш малыш? Загрузите фото обоих родителей — и наш AI создаст нежный портрет будущего ребёнка!
+        <p className="text-gray-700 text-sm leading-relaxed">
+          Загрузите фото обоих родителей — и AI создаст нежный портрет вашего будущего малыша. Результатом можно поделиться с близкими!
         </p>
-        <div className="bg-pink-50 rounded-2xl p-4 text-center">
-          <div className="text-4xl mb-2">📸</div>
-          <p className="text-sm text-pink-700 font-medium">Функция AI-визуализации</p>
-          <p className="text-xs text-gray-500 mt-1">Скоро будет доступна. Результатом можно поделиться с близкими!</p>
-        </div>
+        <a
+          href="https://www.babymaker.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 bg-pink-50 rounded-2xl p-4 hover:bg-pink-100 transition-colors"
+        >
+          <div className="w-14 h-14 bg-gradient-to-br from-pink-400 to-rose-500 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl">
+            👶
+          </div>
+          <div className="flex-1">
+            <p className="font-bold text-rose-700">BabyMaker AI</p>
+            <p className="text-xs text-gray-500 mt-0.5">Загрузите фото мамы и папы — получите портрет малыша</p>
+          </div>
+          <Icon name="ExternalLink" size={16} className="text-rose-400" />
+        </a>
+        <a
+          href="https://www.remini.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 bg-purple-50 rounded-2xl p-4 hover:bg-purple-100 transition-colors"
+        >
+          <div className="w-14 h-14 bg-gradient-to-br from-purple-400 to-violet-500 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl">
+            🧬
+          </div>
+          <div className="flex-1">
+            <p className="font-bold text-purple-700">Remini — Baby AI</p>
+            <p className="text-xs text-gray-500 mt-0.5">Функция «Baby Generator» — черты обоих родителей</p>
+          </div>
+          <Icon name="ExternalLink" size={16} className="text-purple-400" />
+        </a>
         <div className="flex flex-wrap gap-2">
-          <span className="bg-pink-100 text-pink-700 text-xs px-3 py-1 rounded-full">🧬 На основе генетики</span>
-          <span className="bg-rose-100 text-rose-700 text-xs px-3 py-1 rounded-full">🤝 Черты обоих родителей</span>
+          <span className="bg-pink-100 text-pink-700 text-xs px-3 py-1 rounded-full">🧬 Черты обоих родителей</span>
           <span className="bg-purple-100 text-purple-700 text-xs px-3 py-1 rounded-full">💌 Поделитесь с семьёй</span>
         </div>
       </div>
