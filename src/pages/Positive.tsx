@@ -210,13 +210,19 @@ const cards = [
             </div>
             <Icon name="ExternalLink" size={16} className="ml-auto text-purple-400" />
           </a>
-          <div className="flex items-center gap-3 bg-rose-50 rounded-2xl p-4">
+          <a
+            href="https://ekbmiloserdie.ru"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-rose-50 rounded-2xl p-4 hover:bg-rose-100 transition-colors"
+          >
             <span className="text-2xl">⛪</span>
-            <div>
+            <div className="flex-1">
               <p className="font-semibold text-rose-800 text-sm">Епархиальная служба помощи</p>
-              <p className="text-xs text-gray-500">Психологическая и материальная поддержка</p>
+              <p className="text-xs text-gray-500">Психологическая и материальная поддержка семьям</p>
             </div>
-          </div>
+            <Icon name="ExternalLink" size={16} className="ml-auto text-rose-400 flex-shrink-0" />
+          </a>
           <div className="flex items-center gap-3 bg-teal-50 rounded-2xl p-4">
             <span className="text-2xl">👩‍⚕️</span>
             <div>
