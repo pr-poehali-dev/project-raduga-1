@@ -224,6 +224,32 @@ const cards = [
             </div>
             <Icon name="ExternalLink" size={16} className="ml-auto text-indigo-400 flex-shrink-0" />
           </a>
+          <a
+            href="https://www.aistenok.org/about/help/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-sky-50 rounded-2xl p-4 hover:bg-sky-100 transition-colors"
+          >
+            <span className="text-2xl">🐣</span>
+            <div className="flex-1">
+              <p className="font-semibold text-sky-800 text-sm">Организация «Аистенок»</p>
+              <p className="text-xs text-gray-500">Помощь семьям с детьми в трудной жизненной ситуации</p>
+            </div>
+            <Icon name="ExternalLink" size={16} className="ml-auto text-sky-400 flex-shrink-0" />
+          </a>
+          <a
+            href="https://vk.com/kolybelekb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-pink-50 rounded-2xl p-4 hover:bg-pink-100 transition-colors"
+          >
+            <span className="text-2xl">🛏️</span>
+            <div className="flex-1">
+              <p className="font-semibold text-pink-800 text-sm">Центр защиты семьи «Колыбель»</p>
+              <p className="text-xs text-gray-500">Поддержка и защита семьи, помощь мамам</p>
+            </div>
+            <Icon name="ExternalLink" size={16} className="ml-auto text-pink-400 flex-shrink-0" />
+          </a>
           <div className="flex items-center gap-3 bg-teal-50 rounded-2xl p-4">
             <span className="text-2xl">👩‍⚕️</span>
             <div>
