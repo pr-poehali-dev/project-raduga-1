@@ -183,7 +183,7 @@ const cards = [
     content: (
       <div className="space-y-4">
         <p className="text-gray-700 leading-relaxed text-sm">
-          Если вы оказались в непростой жизненной ситуации — знайте, что вы не одни. Есть люди, которые готовы помочь.
+          Если ты оказалась в непростой жизненной ситуации — знай, что ты не одна. Есть люди, которые готовы помочь.
         </p>
         <div className="space-y-3">
           <a
@@ -343,7 +343,7 @@ const Positive = () => {
           </button>
           <div className="text-5xl mb-3">🎀</div>
           <h1 className="text-2xl font-extrabold text-rose-700">Поздравляем!</h1>
-          <p className="text-gray-600 text-sm mt-2">Впереди — одно из самых прекрасных путешествий в вашей жизни</p>
+          <p className="text-gray-600 text-sm mt-2">Впереди — одно из самых прекрасных путешествий в твоей жизни</p>
         </motion.div>
 
         {/* Cards */}

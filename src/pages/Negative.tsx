@@ -99,7 +99,7 @@ const cards = [
           <span className="text-2xl mt-0.5">🧬</span>
           <div className="flex-1">
             <p className="font-semibold text-rose-800 text-sm">ВРТ — Вспомогательные репродуктивные технологии</p>
-            <p className="text-xs text-gray-600 mt-1">ЭКО и другие методы по полису ОМС — обратитесь к врачу для направления</p>
+            <p className="text-xs text-gray-600 mt-1">ЭКО и другие методы по полису ОМС — обратись к врачу для направления</p>
           </div>
           <Icon name="ExternalLink" size={14} className="text-rose-400 flex-shrink-0 mt-0.5" />
         </a>
@@ -183,12 +183,12 @@ const Negative = () => {
             🌿
           </motion.div>
 
-          <h1 className="text-2xl font-extrabold text-violet-700 mb-3">Не огорчайтесь!</h1>
+          <h1 className="text-2xl font-extrabold text-violet-700 mb-3">Не огорчайся!</h1>
 
           <div className="bg-white/80 backdrop-blur rounded-3xl p-5 shadow-lg text-left">
             <p className="text-gray-700 leading-relaxed text-sm">
-              Если у вас отрицательный тест на беременность — это не повод расстраиваться.
-              Обратитесь в женскую консультацию: вам помогут подготовиться к беременности
+              Если у тебя отрицательный тест на беременность — это не повод расстраиваться.
+              Обратись в женскую консультацию: тебе помогут подготовиться к беременности
               и рождению здорового малыша 🌷
             </p>
           </div>
