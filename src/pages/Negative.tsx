@@ -149,7 +149,7 @@ const Negative = () => {
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             className="text-6xl mb-4"
           >
-            💜
+            🌿
           </motion.div>
 
           <h1 className="text-2xl font-extrabold text-violet-700 mb-3">Не огорчайтесь!</h1>
