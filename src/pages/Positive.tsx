@@ -139,14 +139,48 @@ const cards = [
             <li>• Проконсультируйтесь с врачом по витаминам и питанию</li>
           </ul>
         </div>
-        <div className="bg-green-50 rounded-2xl p-4">
-          <p className="font-semibold text-green-800 mb-2">🤱 Меры социальной поддержки</p>
-          <ul className="text-sm text-gray-700 space-y-1.5">
-            <li>• Единое пособие при постановке на учёт до 12 недель</li>
-            <li>• Декретные выплаты и пособие по уходу за ребёнком</li>
-            <li>• Материнский капитал при рождении ребёнка</li>
-            <li>• Программы поддержки семей в Свердловской области</li>
-          </ul>
+        <div className="bg-green-50 rounded-2xl p-4 space-y-3">
+          <p className="font-semibold text-green-800">🤱 Меры социальной поддержки</p>
+
+          <a href="https://www.gosuslugi.ru/600426" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
+            <span className="text-xl flex-shrink-0">🏛️</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-green-800">Единое пособие беременным</p>
+              <p className="text-xs text-gray-500">Оформить на Госуслугах — при постановке на учёт до 12 недель</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
+          </a>
+
+          <a href="https://www.gosuslugi.ru/10054/1" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
+            <span className="text-xl flex-shrink-0">💼</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-green-800">Декретные и пособие по уходу</p>
+              <p className="text-xs text-gray-500">Пособие по беременности и родам — оформить на Госуслугах</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
+          </a>
+
+          <a href="https://sfr.gov.ru/grazhdanam/semya/mat_kapital/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
+            <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-green-800">Материнский капитал</p>
+              <p className="text-xs text-gray-500">СФР — как получить и на что потратить</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
+          </a>
+
+          <a href="https://msp.midural.ru/mery-podderzhki/semi-s-detmi/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
+            <span className="text-xl flex-shrink-0">🏔️</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-green-800">Поддержка семей — Свердловская область</p>
+              <p className="text-xs text-gray-500">Региональные льготы, пособия и выплаты</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
+          </a>
         </div>
         <div className="bg-blue-50 rounded-2xl p-4">
           <p className="font-semibold text-blue-800 mb-2">📅 Развитие малыша по неделям</p>
