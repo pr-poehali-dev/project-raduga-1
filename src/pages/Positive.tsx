@@ -50,16 +50,6 @@ const cards = [
     img: BABY_IMG,
     content: (
       <div className="space-y-4">
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Посмотрите, как развивается малыш — от первых клеточек до рождения. Простым и понятным языком, с красивой анимацией.
-        </p>
-
-        {/* Видео 1 */}
-        <VideoPlayer videoId="FLa5cSDa1E0" title="Развитие ребёнка за 9 месяцев" />
-
-        {/* Видео 2 */}
-        <VideoPlayer videoId="fKyljukBE70" title="Как растёт малыш — по неделям" />
-
         <div className="bg-sky-50 rounded-2xl p-4 space-y-3">
           <p className="font-semibold text-sky-800">📅 Развитие малыша по неделям</p>
           <p className="text-sm text-gray-700">На сроке 4–6 недель формируется сердечко, 8 недель — все основные органы. Каждая неделя — маленькое чудо!</p>
@@ -90,7 +80,6 @@ const cards = [
         <div className="flex flex-wrap gap-2">
           <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
           <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">💡 Простым языком</span>
-          <span className="bg-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-full">🎥 Анимация</span>
         </div>
       </div>
     ),
@@ -105,42 +94,8 @@ const cards = [
     content: (
       <div className="space-y-4">
         <p className="text-gray-700 text-sm leading-relaxed">
-          Загрузите фото обоих родителей — и AI создаст нежный портрет вашего будущего малыша. Результатом можно поделиться с близкими!
+          Раздел находится в разработке. Скоро здесь появится что-то особенное!
         </p>
-        <a
-          href="https://www.babymaker.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-4 bg-pink-50 rounded-2xl p-4 hover:bg-pink-100 transition-colors"
-        >
-          <div className="w-14 h-14 bg-gradient-to-br from-pink-400 to-rose-500 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl">
-            👶
-          </div>
-          <div className="flex-1">
-            <p className="font-bold text-rose-700">BabyMaker AI</p>
-            <p className="text-xs text-gray-500 mt-0.5">Загрузите фото мамы и папы — получите портрет малыша</p>
-          </div>
-          <Icon name="ExternalLink" size={16} className="text-rose-400" />
-        </a>
-        <a
-          href="https://www.remini.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-4 bg-purple-50 rounded-2xl p-4 hover:bg-purple-100 transition-colors"
-        >
-          <div className="w-14 h-14 bg-gradient-to-br from-purple-400 to-violet-500 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl">
-            🧬
-          </div>
-          <div className="flex-1">
-            <p className="font-bold text-purple-700">Remini — Baby AI</p>
-            <p className="text-xs text-gray-500 mt-0.5">Функция «Baby Generator» — черты обоих родителей</p>
-          </div>
-          <Icon name="ExternalLink" size={16} className="text-purple-400" />
-        </a>
-        <div className="flex flex-wrap gap-2">
-          <span className="bg-pink-100 text-pink-700 text-xs px-3 py-1 rounded-full">🧬 Черты обоих родителей</span>
-          <span className="bg-purple-100 text-purple-700 text-xs px-3 py-1 rounded-full">💌 Поделитесь с семьёй</span>
-        </div>
       </div>
     ),
   },
