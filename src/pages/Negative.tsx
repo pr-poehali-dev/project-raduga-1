@@ -94,19 +94,50 @@ const cards = [
         <p className="text-gray-700 text-sm leading-relaxed">
           Если беременность не наступает длительное время — существуют программы помощи и современные медицинские технологии.
         </p>
-        <div className="flex items-start gap-3 bg-rose-50 rounded-2xl p-4">
+        <a href="https://www.ekamedcenter.ru/uslugi/kompleksnye-obsledovaniya/chekapy-kompleksy-zdorovya-dlya-zhenshchin/" target="_blank" rel="noopener noreferrer"
+          className="flex items-start gap-3 bg-rose-50 rounded-2xl p-4 hover:bg-rose-100 transition-colors">
           <span className="text-2xl mt-0.5">🧬</span>
-          <div>
+          <div className="flex-1">
             <p className="font-semibold text-rose-800 text-sm">ВРТ — Вспомогательные репродуктивные технологии</p>
             <p className="text-xs text-gray-600 mt-1">ЭКО и другие методы по полису ОМС — обратитесь к врачу для направления</p>
           </div>
-        </div>
-        <div className="flex items-start gap-3 bg-purple-50 rounded-2xl p-4">
-          <span className="text-2xl mt-0.5">🏛️</span>
-          <div>
-            <p className="font-semibold text-purple-800 text-sm">НКО — Некоммерческие организации</p>
-            <p className="text-xs text-gray-600 mt-1">Организации поддержки семей в Свердловской области, психологическая помощь</p>
+          <Icon name="ExternalLink" size={14} className="text-rose-400 flex-shrink-0 mt-0.5" />
+        </a>
+        <div className="bg-purple-50 rounded-2xl p-4 space-y-3">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl mt-0.5">🏛️</span>
+            <div>
+              <p className="font-semibold text-purple-800 text-sm">НКО — Некоммерческие организации</p>
+              <p className="text-xs text-gray-600 mt-1">Организации поддержки семей в Свердловской области, психологическая помощь</p>
+            </div>
           </div>
+          <a href="https://family2children.ru/projects/dom-dlja-mamy/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
+            <span className="text-lg flex-shrink-0">👨‍👩‍👧</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-purple-800">Некоммерческое партнёрство «Семья детям»</p>
+              <p className="text-xs text-gray-500">Дом для мамы — помощь в трудной ситуации</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
+          </a>
+          <a href="https://www.aistenok.org/about/help/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
+            <span className="text-lg flex-shrink-0">🐣</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-purple-800">Организация «Аистенок»</p>
+              <p className="text-xs text-gray-500">Помощь семьям с детьми в трудной жизненной ситуации</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
+          </a>
+          <a href="https://vk.com/kolybelekb" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
+            <span className="text-lg flex-shrink-0">🛏️</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-purple-800">Центр защиты семьи «Колыбель»</p>
+              <p className="text-xs text-gray-500">Поддержка и защита семьи, помощь мамам</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
+          </a>
         </div>
         <div className="flex items-start gap-3 bg-amber-50 rounded-2xl p-4">
           <span className="text-2xl mt-0.5">👶</span>
