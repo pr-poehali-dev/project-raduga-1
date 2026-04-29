@@ -3,6 +3,39 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import Icon from "@/components/ui/icon"
 
+const VideoPlayer = ({ videoId, title }: { videoId: string; title: string }) => {
+  const [playing, setPlaying] = useState(false)
+  return (
+    <div className="rounded-2xl overflow-hidden shadow-md bg-black">
+      {playing ? (
+        <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      ) : (
+        <button onClick={() => setPlaying(true)} className="relative w-full group block">
+          <img
+            src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+            alt={title}
+            className="w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-2 group-hover:bg-black/40 transition-colors">
+            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+              <Icon name="Play" size={28} className="text-white ml-1" />
+            </div>
+            <span className="text-white text-sm font-semibold drop-shadow px-4 text-center">{title}</span>
+          </div>
+        </button>
+      )}
+    </div>
+  )
+}
+
 const BABY_IMG = "https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/c7e2d55c-b5bc-4379-8ed8-1b6d9c63e40f.jpg"
 const BELLY_IMG = "https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/4eea6556-f8ac-46a3-91e1-b5a42ef860db.jpg"
 const COUPLE_IMG = "https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/ad820596-e932-4f34-a691-889f6ce01df9.jpg"
@@ -22,48 +55,10 @@ const cards = [
         </p>
 
         {/* Видео 1 */}
-        <a
-          href="https://www.youtube.com/watch?v=FLa5cSDa1E0"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block group"
-        >
-          <div className="relative rounded-2xl overflow-hidden shadow-md">
-            <img
-              src="https://img.youtube.com/vi/FLa5cSDa1E0/hqdefault.jpg"
-              alt="Развитие ребёнка за 9 месяцев"
-              className="w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-2 group-hover:bg-black/40 transition-colors">
-              <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
-                <Icon name="Play" size={24} className="text-white ml-1" />
-              </div>
-              <span className="text-white text-sm font-semibold drop-shadow">Развитие ребёнка за 9 месяцев</span>
-            </div>
-          </div>
-        </a>
+        <VideoPlayer videoId="FLa5cSDa1E0" title="Развитие ребёнка за 9 месяцев" />
 
         {/* Видео 2 */}
-        <a
-          href="https://www.youtube.com/watch?v=fKyljukBE70"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block group"
-        >
-          <div className="relative rounded-2xl overflow-hidden shadow-md">
-            <img
-              src="https://img.youtube.com/vi/fKyljukBE70/hqdefault.jpg"
-              alt="Как растёт малыш — по неделям"
-              className="w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-2 group-hover:bg-black/40 transition-colors">
-              <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
-                <Icon name="Play" size={24} className="text-white ml-1" />
-              </div>
-              <span className="text-white text-sm font-semibold drop-shadow">Как растёт малыш — по неделям</span>
-            </div>
-          </div>
-        </a>
+        <VideoPlayer videoId="fKyljukBE70" title="Как растёт малыш — по неделям" />
 
         <div className="flex flex-wrap gap-2">
           <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
