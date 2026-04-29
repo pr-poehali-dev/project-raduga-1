@@ -73,7 +73,7 @@ const Index = () => {
             className="group relative w-full rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
           >
             <div className="bg-gradient-to-r from-violet-400 to-purple-500 p-6 flex items-center gap-4">
-              <div className="text-5xl">💜</div>
+              <div className="text-5xl">🌿</div>
               <div className="text-left">
                 <div className="text-white font-bold text-xl">Тест отрицательный</div>
                 <div className="text-purple-100 text-sm mt-0.5">Всё будет хорошо, не огорчайтесь!</div>
