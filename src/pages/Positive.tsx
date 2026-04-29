@@ -251,13 +251,7 @@ const cards = [
             </div>
             <Icon name="ExternalLink" size={16} className="ml-auto text-pink-400 flex-shrink-0" />
           </a>
-          <div className="flex items-center gap-3 bg-teal-50 rounded-2xl p-4">
-            <span className="text-2xl">👩‍⚕️</span>
-            <div>
-              <p className="font-semibold text-teal-800 text-sm">Психолог в женской консультации</p>
-              <p className="text-xs text-gray-500">Бесплатная консультация — обратитесь к врачу</p>
-            </div>
-          </div>
+
         </div>
       </div>
     ),
