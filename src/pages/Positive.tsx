@@ -139,7 +139,7 @@ const cards = [
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
 
-          <a href="https://sfr.gov.ru/grazhdanam/semya/mat_kapital/" target="_blank" rel="noopener noreferrer"
+          <a href="https://sfr.gov.ru/branches/sevastopol/info/~/7658" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
             <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
             <div className="flex-1">
@@ -158,16 +158,17 @@ const cards = [
             </div>
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
+
+          <a href="https://www.ekamedcenter.ru/aborty/index.php/https:/www.ekamedcenter.ru/aborty/index.php/sphrase_id=124589/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
+            <span className="text-xl flex-shrink-0">🏥</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-green-800">Екатеринбургский медицинский центр</p>
+              <p className="text-xs text-gray-500">Консультация и поддержка по вопросам беременности</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
+          </a>
         </div>
-        <a href="https://www.ekamedcenter.ru/aborty/index.php/https:/www.ekamedcenter.ru/aborty/index.php/sphrase_id=124589/" target="_blank" rel="noopener noreferrer"
-          className="flex items-center gap-3 bg-blue-50 rounded-2xl p-4 hover:bg-blue-100 transition-colors">
-          <span className="text-2xl flex-shrink-0">🏥</span>
-          <div className="flex-1">
-            <p className="font-semibold text-blue-800 text-sm">Екатеринбургский медицинский центр</p>
-            <p className="text-xs text-gray-500">Консультация и поддержка по вопросам беременности</p>
-          </div>
-          <Icon name="ExternalLink" size={16} className="text-blue-400 flex-shrink-0" />
-        </a>
 
       </div>
     ),
