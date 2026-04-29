@@ -149,7 +149,7 @@ const cards = [
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
 
-          <a href="https://msp.midural.ru/mery-podderzhki/semi-s-detmi/" target="_blank" rel="noopener noreferrer"
+          <a href="https://msp.midural.ru/aktualnye-proekty/2024-god-god-semi.html" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
             <span className="text-xl flex-shrink-0">🏔️</span>
             <div className="flex-1">
