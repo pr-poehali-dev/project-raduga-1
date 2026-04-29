@@ -60,6 +60,33 @@ const cards = [
         {/* Видео 2 */}
         <VideoPlayer videoId="fKyljukBE70" title="Как растёт малыш — по неделям" />
 
+        <div className="bg-sky-50 rounded-2xl p-4 space-y-3">
+          <p className="font-semibold text-sky-800">📅 Развитие малыша по неделям</p>
+          <p className="text-sm text-gray-700">На сроке 4–6 недель формируется сердечко, 8 недель — все основные органы. Каждая неделя — маленькое чудо!</p>
+          <div className="grid grid-cols-2 gap-2 pt-1">
+            <div className="rounded-xl overflow-hidden bg-white shadow-sm">
+              <img src="https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/9e35f88c-7494-40d1-bd65-12fc15e83ef6.jpg" alt="Эмбрион 4–5 недель" className="w-full h-28 object-cover" />
+              <p className="text-xs text-center text-gray-500 py-1.5 font-medium">4–5 недель</p>
+            </div>
+            <div className="rounded-xl overflow-hidden bg-white shadow-sm">
+              <img src="https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/d9bdc0dd-d321-44b7-97ec-b83fe33d580e.jpg" alt="Эмбрион 8 недель" className="w-full h-28 object-cover" />
+              <p className="text-xs text-center text-gray-500 py-1.5 font-medium">8 недель</p>
+            </div>
+            <div className="rounded-xl overflow-hidden bg-white shadow-sm">
+              <img src="https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/01939193-1977-4654-b9a1-27183373bb5c.jpg" alt="Плод 12 недель" className="w-full h-28 object-cover" />
+              <p className="text-xs text-center text-gray-500 py-1.5 font-medium">12 недель</p>
+            </div>
+            <div className="rounded-xl overflow-hidden bg-white shadow-sm">
+              <img src="https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/c172e1ae-091e-4398-bd4c-2898a420409b.jpg" alt="Плод 20 недель" className="w-full h-28 object-cover" />
+              <p className="text-xs text-center text-gray-500 py-1.5 font-medium">20 недель</p>
+            </div>
+          </div>
+          <div className="rounded-xl overflow-hidden bg-white shadow-sm">
+            <img src="https://cdn.poehali.dev/projects/f006a5bd-85eb-42e5-b07c-4c06413f5aa4/files/87b168f2-e6e1-41cb-bcde-586d32cda0f6.jpg" alt="Плод 36–38 недель" className="w-full h-40 object-cover" />
+            <p className="text-xs text-center text-gray-500 py-1.5 font-medium">36–38 недель — малыш готов к встрече с мамой!</p>
+          </div>
+        </div>
+
         <div className="flex flex-wrap gap-2">
           <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
           <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">💡 Простым языком</span>
@@ -186,10 +213,7 @@ const cards = [
           </div>
           <Icon name="ExternalLink" size={16} className="text-blue-400 flex-shrink-0" />
         </a>
-        <div className="bg-blue-50 rounded-2xl p-4">
-          <p className="font-semibold text-blue-800 mb-2">📅 Развитие малыша по неделям</p>
-          <p className="text-sm text-gray-700">На сроке 4–6 недель формируется сердечко, 8 недель — все основные органы. Каждая неделя — маленькое чудо!</p>
-        </div>
+
       </div>
     ),
   },
