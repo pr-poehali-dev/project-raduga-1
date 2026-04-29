@@ -111,9 +111,9 @@ const cards = [
         <div className="bg-amber-50 rounded-2xl p-4">
           <p className="font-semibold text-amber-800 mb-2">🏥 Первые шаги</p>
           <ul className="text-sm text-gray-700 space-y-1.5">
-            <li>• Встаньте на учёт в женскую консультацию — до 12 недель</li>
-            <li>• Сдайте первые анализы и пройдите УЗИ</li>
-            <li>• Проконсультируйтесь с врачом по витаминам и питанию</li>
+            <li>• Встань на учёт в женскую консультацию — до 12 недель</li>
+            <li>• Сдай первые анализы и пройди УЗИ</li>
+            <li>• Проконсультируйся с врачом по витаминам и питанию</li>
           </ul>
         </div>
         <div className="bg-green-50 rounded-2xl p-4 space-y-3">
