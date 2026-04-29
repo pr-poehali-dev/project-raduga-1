@@ -22,36 +22,48 @@ const cards = [
         </p>
 
         {/* Видео 1 */}
-        <div>
-          <p className="text-xs font-semibold text-sky-700 mb-2 px-1">🎬 Развитие ребёнка за 9 месяцев</p>
-          <div className="rounded-2xl overflow-hidden shadow-md bg-black">
-            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/FLa5cSDa1E0"
-                title="Развитие ребёнка за 9 месяцев беременности"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+        <a
+          href="https://www.youtube.com/watch?v=FLa5cSDa1E0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group"
+        >
+          <div className="relative rounded-2xl overflow-hidden shadow-md">
+            <img
+              src="https://img.youtube.com/vi/FLa5cSDa1E0/hqdefault.jpg"
+              alt="Развитие ребёнка за 9 месяцев"
+              className="w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-2 group-hover:bg-black/40 transition-colors">
+              <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
+                <Icon name="Play" size={24} className="text-white ml-1" />
+              </div>
+              <span className="text-white text-sm font-semibold drop-shadow">Развитие ребёнка за 9 месяцев</span>
             </div>
           </div>
-        </div>
+        </a>
 
         {/* Видео 2 */}
-        <div>
-          <p className="text-xs font-semibold text-blue-700 mb-2 px-1">🌱 Как растёт малыш — по неделям</p>
-          <div className="rounded-2xl overflow-hidden shadow-md bg-black">
-            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/fKyljukBE70"
-                title="Как растёт малыш — развитие плода по неделям"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+        <a
+          href="https://www.youtube.com/watch?v=fKyljukBE70"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group"
+        >
+          <div className="relative rounded-2xl overflow-hidden shadow-md">
+            <img
+              src="https://img.youtube.com/vi/fKyljukBE70/hqdefault.jpg"
+              alt="Как растёт малыш — по неделям"
+              className="w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center gap-2 group-hover:bg-black/40 transition-colors">
+              <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
+                <Icon name="Play" size={24} className="text-white ml-1" />
+              </div>
+              <span className="text-white text-sm font-semibold drop-shadow">Как растёт малыш — по неделям</span>
             </div>
           </div>
-        </div>
+        </a>
 
         <div className="flex flex-wrap gap-2">
           <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
