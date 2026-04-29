@@ -18,19 +18,41 @@ const cards = [
     content: (
       <div className="space-y-4">
         <p className="text-gray-700 text-sm leading-relaxed">
-          Посмотрите трогательный мультфильм о том, как развивается малыш — от первых клеточек до рождения. Простым и понятным языком.
+          Посмотрите, как развивается малыш — от первых клеточек до рождения. Простым и понятным языком, с красивой анимацией.
         </p>
-        <div className="rounded-2xl overflow-hidden shadow-md">
-          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-            <iframe
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/fKyljukBE70"
-              title="Развитие плода — от зачатия до рождения"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+
+        {/* Видео 1 */}
+        <div>
+          <p className="text-xs font-semibold text-sky-700 mb-2 px-1">🎬 Развитие ребёнка за 9 месяцев</p>
+          <div className="rounded-2xl overflow-hidden shadow-md bg-black">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/FLa5cSDa1E0"
+                title="Развитие ребёнка за 9 месяцев беременности"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
+
+        {/* Видео 2 */}
+        <div>
+          <p className="text-xs font-semibold text-blue-700 mb-2 px-1">🌱 Как растёт малыш — по неделям</p>
+          <div className="rounded-2xl overflow-hidden shadow-md bg-black">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/fKyljukBE70"
+                title="Как растёт малыш — развитие плода по неделям"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-wrap gap-2">
           <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
           <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">💡 Простым языком</span>
