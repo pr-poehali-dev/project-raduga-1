@@ -77,10 +77,7 @@ const cards = [
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
-          <span className="bg-sky-100 text-sky-700 text-xs px-3 py-1 rounded-full">🌱 1–40 недель</span>
-          <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">💡 Простым языком</span>
-        </div>
+
       </div>
     ),
   },
@@ -112,9 +109,22 @@ const cards = [
           <p className="font-semibold text-amber-800 mb-2">🏥 Первые шаги</p>
           <ul className="text-sm text-gray-700 space-y-1.5">
             <li>• Встань на учёт в женскую консультацию — до 12 недель</li>
-            <li>• Сдай первые анализы и пройди УЗИ</li>
+            <li>• Сдай анализы и врач назначит тебе обследование</li>
             <li>• Проконсультируйся с врачом по витаминам и питанию</li>
           </ul>
+          <a
+            href="https://2gis.ru/ekaterinburg/search/%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-amber-50 transition-colors border border-amber-100 mt-2"
+          >
+            <span className="text-xl flex-shrink-0">📍</span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-amber-800">Ближайшая женская консультация</p>
+              <p className="text-xs text-gray-500">Поиск на карте Екатеринбурга</p>
+            </div>
+            <Icon name="ExternalLink" size={14} className="text-amber-400 flex-shrink-0" />
+          </a>
         </div>
         <div className="bg-green-50 rounded-2xl p-4 space-y-3">
           <p className="font-semibold text-green-800">🤱 Меры социальной поддержки</p>
@@ -129,7 +139,7 @@ const cards = [
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
 
-          <a href="https://www.gosuslugi.ru/10054/1" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.gosuslugi.ru/help/faq/payment_newborn/102070" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
             <span className="text-xl flex-shrink-0">💼</span>
             <div className="flex-1">
@@ -159,15 +169,7 @@ const cards = [
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
 
-          <a href="https://www.ekamedcenter.ru/aborty/index.php/https:/www.ekamedcenter.ru/aborty/index.php/sphrase_id=124589/" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
-            <span className="text-xl flex-shrink-0">🏥</span>
-            <div className="flex-1">
-              <p className="text-sm font-medium text-green-800">Екатеринбургский медицинский центр</p>
-              <p className="text-xs text-gray-500">Консультация и поддержка по вопросам беременности</p>
-            </div>
-            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
-          </a>
+
         </div>
 
       </div>
