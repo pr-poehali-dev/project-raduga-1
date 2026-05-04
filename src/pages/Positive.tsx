@@ -45,7 +45,7 @@ const cards = [
     id: "video",
     emoji: "🎬",
     title: "Здравствуй, моя будущая мама!",
-    subtitle: "Видео о развитии малыша простым языком",
+    subtitle: "Развитие малыша по неделям",
     color: "from-sky-400 to-blue-500",
     img: BABY_IMG,
     content: (
@@ -97,21 +97,6 @@ const cards = [
     ),
   },
   {
-    id: "ai",
-    emoji: "✨",
-    title: "Узнай, каким я буду!",
-    subtitle: "AI-визуализация малыша по фото родителей",
-    color: "from-pink-400 to-rose-500",
-    img: BABY_IMG,
-    content: (
-      <div className="space-y-4">
-        <p className="text-gray-700 text-sm leading-relaxed">
-          Раздел находится в разработке. Скоро здесь появится что-то особенное!
-        </p>
-      </div>
-    ),
-  },
-  {
     id: "tips",
     emoji: "💡",
     title: "Полезные советы",
@@ -125,7 +110,7 @@ const cards = [
           <ul className="text-sm text-gray-700 space-y-1.5">
             <li>• Встань на учёт в женскую консультацию — до 12 недель</li>
             <li>• Сдай анализы и врач назначит тебе обследование</li>
-            <li>• Проконсультируйся с врачом по витаминам и питанию</li>
+            <li>• Уточни у врача, какие шаги помогут тебе вести правильный образ жизни</li>
           </ul>
           <a
             href="https://2gis.ru/ekaterinburg/search/%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F"
@@ -144,32 +129,12 @@ const cards = [
         <div className="bg-green-50 rounded-2xl p-4 space-y-3">
           <p className="font-semibold text-green-800">🤱 Меры социальной поддержки</p>
 
-          <a href="https://www.gosuslugi.ru/600426" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
-            <span className="text-xl flex-shrink-0">🏛️</span>
-            <div className="flex-1">
-              <p className="text-sm font-medium text-green-800">Единое пособие беременным</p>
-              <p className="text-xs text-gray-500">Оформить на Госуслугах — при постановке на учёт до 12 недель</p>
-            </div>
-            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
-          </a>
-
           <a href="https://www.gosuslugi.ru/help/faq/payment_newborn/102070" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
             <span className="text-xl flex-shrink-0">💼</span>
             <div className="flex-1">
-              <p className="text-sm font-medium text-green-800">Декретные и пособие по уходу</p>
+              <p className="text-sm font-medium text-green-800">Льготы, пособия и материнский капитал</p>
               <p className="text-xs text-gray-500">Пособие по беременности и родам — оформить на Госуслугах</p>
-            </div>
-            <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
-          </a>
-
-          <a href="https://sfr.gov.ru/branches/sevastopol/info/~/7658" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-green-50 transition-colors border border-green-100">
-            <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
-            <div className="flex-1">
-              <p className="text-sm font-medium text-green-800">Материнский капитал</p>
-              <p className="text-xs text-gray-500">СФР — как получить и на что потратить</p>
             </div>
             <Icon name="ExternalLink" size={14} className="text-green-400 flex-shrink-0" />
           </a>
@@ -203,32 +168,13 @@ const cards = [
           Если ты оказалась в непростой жизненной ситуации — знай, что ты не одна. Есть люди, которые готовы помочь.
         </p>
         <div className="space-y-3">
-          <a
-            href="https://pro-life.ru"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-purple-50 rounded-2xl p-4 hover:bg-purple-100 transition-colors"
-          >
+          <div className="flex items-start gap-3 bg-purple-50 rounded-2xl p-4">
             <span className="text-2xl">❤️</span>
             <div>
               <p className="font-semibold text-purple-800 text-sm">Фонд «Спаси жизнь»</p>
-              <p className="text-xs text-gray-500">Кризисная помощь беременным женщинам</p>
+              <p className="text-xs text-gray-600 mt-1 leading-relaxed">Если ты оказалась в трудной ситуации, не оставайся с этим одна. Позвони по номеру <a href="tel:+79031793970" className="font-semibold text-purple-700 underline">+7 (903) 179-39-70</a> — тебе окажут материальную помощь, а также психологическую и юридическую поддержку.</p>
             </div>
-            <Icon name="ExternalLink" size={16} className="ml-auto text-purple-400" />
-          </a>
-          <a
-            href="https://ekbmiloserdie.ru"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-rose-50 rounded-2xl p-4 hover:bg-rose-100 transition-colors"
-          >
-            <span className="text-2xl">⛪</span>
-            <div className="flex-1">
-              <p className="font-semibold text-rose-800 text-sm">Епархиальная служба помощи</p>
-              <p className="text-xs text-gray-500">Психологическая и материальная поддержка семьям</p>
-            </div>
-            <Icon name="ExternalLink" size={16} className="ml-auto text-rose-400 flex-shrink-0" />
-          </a>
+          </div>
           <a
             href="https://vk.com/nechayannaya"
             target="_blank"
@@ -323,7 +269,7 @@ const Positive = () => {
             <p className="text-rose-600 font-bold text-2xl mb-2">Здравствуй,</p>
             <p className="text-rose-800 font-extrabold text-3xl mb-4">моя будущая мама! 💕</p>
             <p className="text-gray-600 text-sm leading-relaxed mb-6">
-              Я пока совсем крошечный, но уже так рад встрече с тобой! Впереди нас ждёт удивительное путешествие длиной 9 месяцев.
+              Я пока совсем крошечный, но уже так рад встрече с тобой! Впереди нас ждёт удивительное путешествие длиной в 9 месяцев.
             </p>
             <motion.button
               onClick={() => setShowIntro(false)}
