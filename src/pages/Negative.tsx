@@ -22,7 +22,6 @@ const cards = [
           <ul className="text-sm text-gray-700 space-y-1.5">
             <li>• Пройди осмотр у гинеколога для оценки здоровья</li>
             <li>• Сдай базовые анализы крови и на гормоны</li>
-            <li>• Начни принимать фолиевую кислоту заблаговременно</li>
             <li>• Пересмотри питание и режим сна</li>
             <li>• Откажись от вредных привычек</li>
           </ul>
@@ -94,56 +93,75 @@ const cards = [
         <p className="text-gray-700 text-sm leading-relaxed">
           Если беременность не наступает длительное время — существуют программы помощи и современные медицинские технологии.
         </p>
-        <a href="https://www.ekamedcenter.ru/uslugi/kompleksnye-obsledovaniya/chekapy-kompleksy-zdorovya-dlya-zhenshchin/" target="_blank" rel="noopener noreferrer"
-          className="flex items-start gap-3 bg-rose-50 rounded-2xl p-4 hover:bg-rose-100 transition-colors">
-          <span className="text-2xl mt-0.5">🧬</span>
-          <div className="flex-1">
-            <p className="font-semibold text-rose-800 text-sm">ВРТ — Вспомогательные репродуктивные технологии</p>
-            <p className="text-xs text-gray-600 mt-1">ЭКО и другие методы по полису ОМС — обратись к врачу для направления</p>
-          </div>
-          <Icon name="ExternalLink" size={14} className="text-rose-400 flex-shrink-0 mt-0.5" />
-        </a>
-        <div className="bg-purple-50 rounded-2xl p-4 space-y-3">
+        <div className="bg-rose-50 rounded-2xl p-4 space-y-3">
           <div className="flex items-start gap-3">
-            <span className="text-2xl mt-0.5">🏛️</span>
+            <span className="text-2xl mt-0.5">🧬</span>
             <div>
-              <p className="font-semibold text-purple-800 text-sm">НКО — Некоммерческие организации</p>
-              <p className="text-xs text-gray-600 mt-1">Организации поддержки семей в Свердловской области, психологическая помощь</p>
+              <p className="font-semibold text-rose-800 text-sm">ВРТ — Вспомогательные репродуктивные технологии</p>
+              <p className="text-xs text-gray-600 mt-1">ЭКО и другие методы по полису ОМС — обратись к врачу для направления</p>
             </div>
           </div>
-          <a href="https://family2children.ru/projects/dom-dlja-mamy/" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
-            <span className="text-lg flex-shrink-0">👨‍👩‍👧</span>
+          <a href="https://minzdrav.midural.ru/activity/1988/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-rose-50 transition-colors border border-rose-100">
+            <span className="text-lg flex-shrink-0">🏥</span>
             <div className="flex-1">
-              <p className="text-sm font-medium text-purple-800">Некоммерческое партнёрство «Семья детям»</p>
-              <p className="text-xs text-gray-500">Дом для мамы — помощь в трудной ситуации</p>
+              <p className="text-sm font-medium text-rose-800">Министерство здравоохранения СО</p>
+              <p className="text-xs text-gray-500">ВРТ в Свердловской области</p>
             </div>
-            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
+            <Icon name="ExternalLink" size={14} className="text-rose-400 flex-shrink-0" />
           </a>
-          <a href="https://www.aistenok.org/about/help/" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
-            <span className="text-lg flex-shrink-0">🐣</span>
+          <a href="https://флотская52.рф/pacientam/eko_po_polisu_oms/" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-rose-50 transition-colors border border-rose-100">
+            <span className="text-lg flex-shrink-0">💊</span>
             <div className="flex-1">
-              <p className="text-sm font-medium text-purple-800">Организация «Аистенок»</p>
-              <p className="text-xs text-gray-500">Помощь семьям с детьми в трудной жизненной ситуации</p>
+              <p className="text-sm font-medium text-rose-800">ЭКО по полису ОМС</p>
+              <p className="text-xs text-gray-500">Флотская 52 — информация для пациентов</p>
             </div>
-            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
-          </a>
-          <a href="https://vk.com/kolybelekb" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-purple-50 transition-colors border border-purple-100">
-            <span className="text-lg flex-shrink-0">🛏️</span>
-            <div className="flex-1">
-              <p className="text-sm font-medium text-purple-800">Центр защиты семьи «Колыбель»</p>
-              <p className="text-xs text-gray-500">Поддержка и защита семьи, помощь мамам</p>
-            </div>
-            <Icon name="ExternalLink" size={14} className="text-purple-400 flex-shrink-0" />
+            <Icon name="ExternalLink" size={14} className="text-rose-400 flex-shrink-0" />
           </a>
         </div>
-        <div className="flex items-start gap-3 bg-amber-50 rounded-2xl p-4">
-          <span className="text-2xl mt-0.5">👶</span>
-          <div>
-            <p className="font-semibold text-amber-800 text-sm">МКББ — Межведомственная комиссия</p>
-            <p className="text-xs text-gray-600 mt-1">Поддержка при планировании и вынашивании беременности</p>
+        <div className="bg-amber-50 rounded-2xl p-4 space-y-3">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl mt-0.5">👶</span>
+            <div>
+              <p className="font-semibold text-amber-800 text-sm">МКББ — Межведомственная комиссия по бесплодию</p>
+            </div>
+          </div>
+          <div className="text-xs text-gray-700 space-y-1.5 leading-relaxed">
+            <p className="font-medium text-amber-800">Учреждения МКББ:</p>
+            <ul className="space-y-1">
+              <li>• ГБУЗ СО «ЕКПЦ» (для города Екатеринбурга)</li>
+              <li>• ГАУЗ СО «ОДКБ» — (Березовский, Реж, Сысерть, Арамиль, Артемовский, Полевской, Верхняя Пышма и Среднеуральск)</li>
+              <li>• ГАУЗ СО «Алапаевская ГБ» (Алапаевск)</li>
+              <li>• ГАУЗ СО «ГБ город Асбест» (Асбест, Рефть, Малышевский ГО, Верхнее Дуброво, Сухой Лог)</li>
+              <li>• ГАУЗ СО «КДЦ «ОЗМР» и ФГБУ «НИИ ОММ» (для Восточного округа)</li>
+              <li>• ГАУЗ СО «ГБ город Каменск-Уральский» (для Южного округа)</li>
+              <li>• ГАУЗ СО «Красноуфимская РБ» (Красноуфимск, Ачит, Арти)</li>
+              <li>• ГАУЗ СО «ГБ №4 город Нижний Тагил» (для Горнозаводского округа)</li>
+              <li>• ГАУЗ СО «ГБ город Первоуральск» (для Западного округа)</li>
+              <li>• ГАУЗ СО «Серовская ГБ» (для Северного округа)</li>
+            </ul>
+            <p className="mt-2">Пару считают бесплодной, если беременность у женщины не наступает в течение года регулярной половой жизни без использования средств и методов контрацепции. На лечение бесплодия имеют право мужчина и женщина, как состоящие, так и не состоящие в зарегистрированном браке.</p>
+            <p className="font-medium text-amber-800 mt-2">В МКББ на амбулаторном этапе проводится дообследование женщины:</p>
+            <ul className="space-y-1">
+              <li>• Оценка проходимости маточных труб</li>
+              <li>• Определение гормонального фона</li>
+              <li>• УЗИ молочных желез и/или маммография</li>
+              <li>• Микробиологическое исследование на ИППП</li>
+              <li>• Кольпоскопия</li>
+              <li>• Консультация эндокринолога</li>
+              <li>• Биопсия эндометрия (по показаниям)</li>
+            </ul>
+            <p className="mt-2">При наличии показаний для хирургического лечения (трубно-перитонеальное бесплодие, миома матки, полипы эндометрия, эндометриоз и т.д.) женщина госпитализируется в гинекологическое отделение для проведения лечения, преимущественно эндоскопического.</p>
+            <p className="font-medium text-amber-800 mt-2">Параллельно в МКББ проводится обследование мужчины урологом:</p>
+            <ul className="space-y-1">
+              <li>• Общее и специальное андрологическое обследование</li>
+              <li>• Спермограмма</li>
+              <li>• УЗИ половых органов</li>
+              <li>• Гормональный фон</li>
+            </ul>
+            <p className="mt-2">При наличии показаний для оперативного лечения (варикоцеле, фимоз, гидроцеле) — госпитализация в урологическое отделение.</p>
+            <p className="mt-2">Выбор тактики ведения и лечения определяется видом бесплодия. При абсолютном трубном бесплодии, неэффективности консервативного и оперативного лечения определяются показания для ВРТ.</p>
           </div>
         </div>
       </div>
@@ -188,7 +206,7 @@ const Negative = () => {
           <div className="bg-white/80 backdrop-blur rounded-3xl p-5 shadow-lg text-left">
             <p className="text-gray-700 leading-relaxed text-sm">
               Если у тебя отрицательный тест на беременность — это не повод расстраиваться.
-              Обратись в женскую консультацию: тебе помогут подготовиться к беременности
+              Обратись в свою женскую консультацию: тебе помогут подготовиться к беременности
               и рождению здорового малыша 🌷
             </p>
           </div>
